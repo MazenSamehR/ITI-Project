@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Platform = require("../models/Genre");
+const Platform = require("../models/Platform");
 
 router.get("/platforms", (req, res) => {
     Platform.find()

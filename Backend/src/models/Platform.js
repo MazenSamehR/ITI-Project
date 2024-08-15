@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const router = require("../routes/");
+const router = require("../routes/user");
 const Schema = mongoose.Schema;
 
 const platformSchema = new Schema({
@@ -21,5 +21,5 @@ const platformSchema = new Schema({
   ],
 });
 
-const Platform = mongoose.model("Platform", genreSchema);
+const Platform = mongoose.model("Platform", platformSchema);
 module.exports = Platform;
