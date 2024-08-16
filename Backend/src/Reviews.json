@@ -1,0 +1,743 @@
+[
+  {
+    "id": 1959069,
+    "user": {
+      "id": 632498,
+      "username": "rochallor",
+      "slug": "rochallor",
+      "full_name": "",
+      "avatar": null,
+      "games_count": 366,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 388309,
+      "slug": "diablo-iv",
+      "name": "Diablo IV",
+      "released": "2023-06-06",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/77d/77d51f8f4a07c3eecb0f8504027b1bf0.jpg",
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 94,
+          "percent": 42.15
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 59,
+          "percent": 26.46
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 49,
+          "percent": 21.97
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 21,
+          "percent": 9.42
+        }
+      ],
+      "added": 1214,
+      "user_game": null,
+      "reviews_count": 223,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "9/10",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 5,
+    "reactions": [],
+    "created": "2024-08-15T08:55:30.333881Z",
+    "edited": "2024-08-15T08:55:53.199031Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1959055,
+    "user": {
+      "id": 563111,
+      "username": "TheOppaianEmperor",
+      "slug": "theoppaianemperor",
+      "full_name": "EmperorArt",
+      "avatar": "https://media.rawg.io/media/avatars/556/556b94437bdf13d21ef9666123223559.gif",
+      "games_count": 717,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 246519,
+      "slug": "synthetic-love",
+      "name": "Synthetic Love",
+      "released": "2018-10-08",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/f01/f0132e1fff6f902781e527f01be18fc0.jpg",
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100
+        }
+      ],
+      "added": 3,
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "The story isnt very interesting, the english is terrible, given that this is a Visual Novel with some point and click can become confusing, you can even soft lock yourself. The art is decent.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 3,
+    "reactions": [],
+    "created": "2024-08-15T03:18:18.315900Z",
+    "edited": "2024-08-15T03:19:41.962597Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1959047,
+    "user": {
+      "id": 729086,
+      "username": "Jmcgrizz",
+      "slug": "jmcgrizz",
+      "full_name": "",
+      "avatar": null,
+      "games_count": 1,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 31906,
+      "slug": "diablo-2-expansion-lord-of-destruction",
+      "name": "Diablo II: Lord of Destruction",
+      "released": "2001-06-24",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/525/52577395aba84652f16e68e9541d38d7.jpg",
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 302,
+          "percent": 68.64
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 112,
+          "percent": 25.45
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 15,
+          "percent": 3.41
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 11,
+          "percent": 2.5
+        }
+      ],
+      "added": 718,
+      "user_game": null,
+      "reviews_count": 440,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "It's so good!",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 5,
+    "reactions": [
+      {
+        "id": 8,
+        "title": "Better with friends",
+        "positive": true
+      }
+    ],
+    "created": "2024-08-15T01:03:43.443778Z",
+    "edited": "2024-08-15T01:03:43.443816Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958996,
+    "user": {
+      "id": 697067,
+      "username": "DURISTIKA",
+      "slug": "duristika",
+      "full_name": "",
+      "avatar": "https://media.rawg.io/media/avatars/808/808c984d9cfc13fa3d3287fec15fc2d2.jpg",
+      "games_count": 93,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 984328,
+      "slug": "smash-girls",
+      "name": "Smash Girls",
+      "released": "2024-06-25",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/9ef/9ef50e036361cda58e610d5f1edcb2c8.jpg",
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 100
+        }
+      ],
+      "added": 1,
+      "user_game": null,
+      "reviews_count": 1,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "Literally 😑Meh",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 3,
+    "reactions": [
+      {
+        "id": 16,
+        "title": "Boooring",
+        "positive": false
+      }
+    ],
+    "created": "2024-08-14T13:40:30.507955Z",
+    "edited": "2024-08-14T13:40:30.508007Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958986,
+    "user": {
+      "id": 721047,
+      "username": "agatacooper",
+      "slug": "agatacooper",
+      "full_name": "",
+      "avatar": null,
+      "games_count": 0,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 427917,
+      "slug": "education",
+      "name": "Education",
+      "released": null,
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/fe5/fe56e9ab21f3fd440db9961651974553.jpg",
+      "rating_top": 0,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 2,
+          "percent": 50
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 2,
+          "percent": 50
+        }
+      ],
+      "added": 3,
+      "user_game": null,
+      "reviews_count": 4,
+      "community_rating": 0,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "When students find themselves overwhelmed by academic demands, they may consider seeking help from services like \u003Ca href=\"https://writepaper.com/write-my-argumentative-essay\" rel=\"nofollow\"\u003Ehttps://writepaper.com/write-my-argumentative-essay\u003C/a\u003E to handle their argumentative essays. While these services can offer valuable assistance in organizing thoughts and structuring arguments, it's essential for students to ensure that they are still engaging deeply with the material. Relying solely on such services might hinder the development of critical thinking and writing skills, which are crucial for academic and professional success.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 4,
+    "reactions": [],
+    "created": "2024-08-14T08:46:33.216181Z",
+    "edited": "2024-08-14T08:46:46.958276Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958862,
+    "user": {
+      "id": 728896,
+      "username": "marinettecheng907",
+      "slug": "marinettecheng907",
+      "full_name": "",
+      "avatar": null,
+      "games_count": 1,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 37546,
+      "slug": "rapelay",
+      "name": "RapeLay",
+      "released": "2006-04-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/screenshots/d72/d721e1befff51ea600a4f007341d4a15.jpg",
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 21,
+          "percent": 60
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 8,
+          "percent": 22.86
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 4,
+          "percent": 11.43
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 2,
+          "percent": 5.71
+        }
+      ],
+      "added": 94,
+      "user_game": null,
+      "reviews_count": 35,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "liked it",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 5,
+    "reactions": [
+      {
+        "id": 1,
+        "title": "Blew my mind",
+        "positive": true
+      },
+      {
+        "id": 3,
+        "title": "Can’t stop playing",
+        "positive": true
+      },
+      {
+        "id": 7,
+        "title": "Sit back and relax",
+        "positive": true
+      },
+      {
+        "id": 9,
+        "title": "Underrated",
+        "positive": true
+      }
+    ],
+    "created": "2024-08-13T05:10:47.745460Z",
+    "edited": "2024-08-13T05:12:06.708640Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958773,
+    "user": {
+      "id": 665683,
+      "username": "xNo0ne",
+      "slug": "xno0ne",
+      "full_name": "",
+      "avatar": "https://media.rawg.io/media/avatars/208/208b03eb7f82f8631c6815fcbd495e94.png",
+      "games_count": 148,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 962381,
+      "slug": "little-kitty-big-city",
+      "name": "Little Kitty, Big City",
+      "released": "2024-05-09",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/c11/c119d11961d785498ccb8e1ed9b006ca.jpg",
+      "rating_top": 4,
+      "ratings": [
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 16,
+          "percent": 76.19
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 3,
+          "percent": 14.29
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 1,
+          "percent": 4.76
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 1,
+          "percent": 4.76
+        }
+      ],
+      "added": 96,
+      "user_game": null,
+      "reviews_count": 21,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "This game is like \"Untitled Goose Game\" but with a cat. Interesting idea. Wish it was longer.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 4,
+    "reactions": [
+      {
+        "id": 7,
+        "title": "Sit back and relax",
+        "positive": true
+      }
+    ],
+    "created": "2024-08-12T16:56:44.776358Z",
+    "edited": "2024-08-12T16:56:44.776410Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958771,
+    "user": {
+      "id": 665683,
+      "username": "xNo0ne",
+      "slug": "xno0ne",
+      "full_name": "",
+      "avatar": "https://media.rawg.io/media/avatars/208/208b03eb7f82f8631c6815fcbd495e94.png",
+      "games_count": 148,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 638650,
+      "slug": "ghost-of-tsushima-directors-cut",
+      "name": "Ghost of Tsushima Director's Cut",
+      "released": "2021-08-20",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/193/193c9fe23ca026914fdf41d551ff3df9.jpg",
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 146,
+          "percent": 66.06
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 64,
+          "percent": 28.96
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 6,
+          "percent": 2.71
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 5,
+          "percent": 2.26
+        }
+      ],
+      "added": 719,
+      "user_game": null,
+      "reviews_count": 221,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "Such a masterpiece. The story, the combat, the graphics, the view... Everything is good in this game. Everyone should give this game a shot.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 5,
+    "reactions": [
+      {
+        "id": 1,
+        "title": "Blew my mind",
+        "positive": true
+      },
+      {
+        "id": 2,
+        "title": "Just one more turn",
+        "positive": true
+      },
+      {
+        "id": 3,
+        "title": "Can’t stop playing",
+        "positive": true
+      },
+      {
+        "id": 4,
+        "title": "Time-tested",
+        "positive": true
+      }
+    ],
+    "created": "2024-08-12T16:46:51.305773Z",
+    "edited": "2024-08-12T16:50:44.956116Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958770,
+    "user": {
+      "id": 665683,
+      "username": "xNo0ne",
+      "slug": "xno0ne",
+      "full_name": "",
+      "avatar": "https://media.rawg.io/media/avatars/208/208b03eb7f82f8631c6815fcbd495e94.png",
+      "games_count": 148,
+      "collections_count": 0
+    },
+    "game": {
+      "id": 964285,
+      "slug": "call-of-duty-modern-warfare-iii",
+      "name": "Call of Duty: Modern Warfare III",
+      "released": "2023-11-09",
+      "tba": false,
+      "background_image": "https://media.rawg.io/media/games/b17/b17ce7ab3187cc3f42d263d9511adac0.jpg",
+      "rating_top": 3,
+      "ratings": [
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 14,
+          "percent": 43.75
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 9,
+          "percent": 28.12
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 5,
+          "percent": 15.62
+        },
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 4,
+          "percent": 12.5
+        }
+      ],
+      "added": 134,
+      "user_game": null,
+      "reviews_count": 32,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "I think that this game has the worst campaign. It's worth giving a shot but this game is a disappointment.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 3,
+    "reactions": [
+      {
+        "id": 20,
+        "title": "Game over at last!",
+        "positive": false
+      }
+    ],
+    "created": "2024-08-12T16:44:42.384828Z",
+    "edited": "2024-08-12T16:46:41.199944Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  },
+  {
+    "id": 1958447,
+    "user": {
+      "id": 727405,
+      "username": "washburn",
+      "slug": "washburn",
+      "full_name": "",
+      "avatar": null,
+      "games_count": 0,
+      "collections_count": 1
+    },
+    "game": {
+      "id": 292844,
+      "slug": "hollow-knight-silksong",
+      "name": "Hollow Knight: Silksong",
+      "released": "2024-12-31",
+      "tba": true,
+      "background_image": "https://media.rawg.io/media/games/27c/27cd8b7dead05a870f8a514a9a1915ad.jpg",
+      "rating_top": 5,
+      "ratings": [
+        {
+          "id": 5,
+          "title": "exceptional",
+          "count": 29,
+          "percent": 55.77
+        },
+        {
+          "id": 4,
+          "title": "recommended",
+          "count": 13,
+          "percent": 25
+        },
+        {
+          "id": 3,
+          "title": "meh",
+          "count": 5,
+          "percent": 9.62
+        },
+        {
+          "id": 1,
+          "title": "skip",
+          "count": 5,
+          "percent": 9.62
+        }
+      ],
+      "added": 973,
+      "user_game": null,
+      "reviews_count": 52,
+      "saturated_color": "0f0f0f",
+      "dominant_color": "0f0f0f"
+    },
+    "text": "it was like I was in a dream I couldn’t shake off-lovely and eerie though annoying. The charm is in the challenge even when I’m annoyed.",
+    "text_preview": "",
+    "text_previews": [],
+    "text_attachments": 0,
+    "rating": 1,
+    "reactions": [],
+    "created": "2024-08-10T15:08:24.837045Z",
+    "edited": "2024-08-10T15:08:24.837098Z",
+    "likes_count": 0,
+    "likes_positive": 0,
+    "likes_rating": 0,
+    "comments_count": 0,
+    "comments_parent_count": 0,
+    "posts_count": 0,
+    "is_text": true,
+    "comments": {
+      "count": 0,
+      "results": []
+    },
+    "can_delete": false
+  }
+]
