@@ -15,9 +15,11 @@ router.post("/add-game", async (req, res) => {
       user = new Cart({ userid, game: [game], __v: 0 });
     } else {
       // Check if the game with the same id already exists in the user's game list
-      const existingGame = user.game.find(g => g.id === game.id);
+      const existingGame = user.game.find((g) => g.id === game.id);
       if (existingGame) {
-        return res.status(400).json({ message: "Game already exists in user's game list" });
+        return res
+          .status(400)
+          .json({ message: "Game already exists in user's game list" });
       }
 
       // If the game doesn't exist, add it to the user's game list
