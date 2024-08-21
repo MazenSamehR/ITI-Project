@@ -10,6 +10,7 @@ const GenreRouter = require("./src/routes/genre");
 const PlatformRouter = require("./src/routes/platform");
 const StoreRouter = require("./src/routes/store");
 const ReviewRouter = require("./src/routes/reviews");
+const CartRouter = require("./src/routes/cart");
 const bodyParser = require("express").json;
 app.use(bodyParser());
 app.use(cors());
@@ -19,6 +20,7 @@ app.use("/", GenreRouter);
 app.use("/", PlatformRouter);
 app.use("/", StoreRouter);
 app.use("/", ReviewRouter);
+app.use("/", CartRouter);
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
