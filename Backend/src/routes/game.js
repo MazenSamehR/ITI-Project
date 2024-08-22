@@ -37,5 +37,48 @@ router.get("/games/:id", (req, res) => {
       });
     });
 });
+router.post("/add-new-game", async (req, res) => {
+  const game = req.body;
+
+  // Ensure the game data exists and is complete
+  if (!game || !game.id || !game.name) {
+    return res.status(400).json({
+      status: "FAILED",
+      message:
+        "Game data is missing or incomplete. 'id' and 'name' are required.",
+    });
+  }
+
+  try {
+    // Check if the game with the same ID already exists
+    let existingGame = await Game.findOne({ id: game.id });
+
+    if (existingGame) {
+      return res.status(409).json({
+        status: "FAILED",
+        message: "Game already exists",
+      });
+    }
+
+    // Create a new game with validated data
+    const newGame = new Game(game);
+
+    // Save the game
+    await newGame.save();
+
+    res.status(201).json({
+      status: "SUCCESS",
+      message: "Game added successfully",
+      data: newGame,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      status: "FAILED",
+      message: "Error adding game",
+      error: error.message,
+    });
+  }
+});
 
 module.exports = router;

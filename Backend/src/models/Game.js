@@ -1,14 +1,31 @@
 const mongoose = require("mongoose");
 const router = require("../routes/user");
 const Schema = mongoose.Schema;
-
 const GameSchema = new Schema({
   id: Number,
   slug: String,
   name: String,
-  released: String, // Date string
+  price: Number,
+  name_original: String,
+  description: String,
+  metacritic: Number,
+  metacritic_platforms: [
+    {
+      metascore: Number,
+      url: String,
+      platform: {
+        platform: Number,
+        name: String,
+        slug: String,
+      },
+    },
+  ],
+  released: String,
   tba: Boolean,
+  updated: String,
   background_image: String,
+  background_image_additional: String,
+  website: String,
   rating: Number,
   rating_top: Number,
   ratings: [
@@ -19,8 +36,27 @@ const GameSchema = new Schema({
       percent: Number,
     },
   ],
-  ratings_count: Number,
-  reviews_text_count: Number,
+  reactions: {
+    "1": Number,
+    "2": Number,
+    "3": Number,
+    "4": Number,
+    "5": Number,
+    "6": Number,
+    "7": Number,
+    "8": Number,
+    "9": Number,
+    "10": Number,
+    "11": Number,
+    "12": Number,
+    "13": Number,
+    "14": Number,
+    "15": Number,
+    "16": Number,
+    "18": Number,
+    "20": Number,
+    "21": Number,
+  },
   added: Number,
   added_by_status: {
     yet: Number,
@@ -30,31 +66,31 @@ const GameSchema = new Schema({
     dropped: Number,
     playing: Number,
   },
-  metacritic: Number,
   playtime: Number,
+  screenshots_count: Number,
+  movies_count: Number,
+  creators_count: Number,
+  achievements_count: Number,
+  parent_achievements_count: Number,
+  reddit_url: String,
+  reddit_name: String,
+  reddit_description: String,
+  reddit_logo: String,
+  reddit_count: Number,
+  twitch_count: Number,
+  youtube_count: Number,
+  reviews_text_count: Number,
+  ratings_count: Number,
   suggestions_count: Number,
-  updated: String, // Date string
+  alternative_names: [String],
+  metacritic_url: String,
+  parents_count: Number,
+  additions_count: Number,
+  game_series_count: Number,
+  user_game: String,
   reviews_count: Number,
   saturated_color: String,
   dominant_color: String,
-  platforms: [
-    {
-      platform: {
-        id: Number,
-        name: String,
-        slug: String,
-        image: String,
-        year_start: Number,
-        games_count: Number,
-        image_background: String,
-      },
-      released_at: String, // Date string
-      requirements_en: {
-        minimum: String,
-        recommended: String,
-      },
-    },
-  ],
   parent_platforms: [
     {
       platform: {
@@ -64,18 +100,29 @@ const GameSchema = new Schema({
       },
     },
   ],
-  genres: [
+  platforms: [
     {
-      id: Number,
-      name: String,
-      slug: String,
-      games_count: Number,
-      image_background: String,
+      platform: {
+        id: Number,
+        name: String,
+        slug: String,
+        image: String,
+        year_end: Number,
+        year_start: Number,
+        games_count: Number,
+        image_background: String,
+      },
+      released_at: String,
+      requirements: {
+        minimum: String,
+        recommended: String,
+      },
     },
   ],
   stores: [
     {
       id: Number,
+      url: String,
       store: {
         id: Number,
         name: String,
@@ -84,6 +131,24 @@ const GameSchema = new Schema({
         games_count: Number,
         image_background: String,
       },
+    },
+  ],
+  developers: [
+    {
+      id: Number,
+      name: String,
+      slug: String,
+      games_count: Number,
+      image_background: String,
+    },
+  ],
+  genres: [
+    {
+      id: Number,
+      name: String,
+      slug: String,
+      games_count: Number,
+      image_background: String,
     },
   ],
   tags: [
@@ -96,17 +161,22 @@ const GameSchema = new Schema({
       image_background: String,
     },
   ],
+  publishers: [
+    {
+      id: Number,
+      name: String,
+      slug: String,
+      games_count: Number,
+      image_background: String,
+    },
+  ],
   esrb_rating: {
     id: Number,
     name: String,
     slug: String,
   },
-  short_screenshots: [
-    {
-      id: Number,
-      image: String,
-    },
-  ],
+  clip: String,
+  description_raw: String,
 });
 
 const Game = mongoose.model("Game", GameSchema);

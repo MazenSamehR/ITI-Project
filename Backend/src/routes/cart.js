@@ -63,5 +63,31 @@ router.get("/carts", async (req, res) => {
     res.status(500).json({ message: "Error fetching users", error });
   }
 });
+router.delete("/remove-game", async (req, res) => {
+  const { userid, gameid } = req.body;
 
+  try {
+    let user = await Cart.findOne({ userid });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const gameIndex = user.game.findIndex((g) => g.id === gameid);
+
+    if (gameIndex === -1) {
+      return res.status(404).json({ message: "Game not found in user's cart" });
+    }
+
+    // Remove the game from the array
+    user.game.splice(gameIndex, 1);
+
+    // Save the updated user document
+    await user.save();
+
+    res.status(200).json({ message: "Game removed successfully", user });
+  } catch (error) {
+    res.status(500).json({ message: "Error removing game from user", error });
+  }
+});
 module.exports = router;
