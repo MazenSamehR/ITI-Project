@@ -80,5 +80,35 @@ router.post("/add-new-game", async (req, res) => {
     });
   }
 });
+router.get("/searchgames", async (req, res) => {
+  try {
+    const queryName = req.query.name?.toLowerCase();
+
+    if (!queryName) {
+      return res
+        .status(400)
+        .json({ message: "Please provide a game name to search." });
+    }
+
+    const filteredGames = await Game.find({
+      name: { $regex: queryName, $options: "i" },
+    });
+
+    if (filteredGames.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No games found matching the search criteria." });
+    }
+
+    res.json(filteredGames);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      status: "FAILED",
+      message: "Error searching games",
+      error: error.message,
+    });
+  }
+});
 
 module.exports = router;

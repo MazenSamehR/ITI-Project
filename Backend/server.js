@@ -2,7 +2,7 @@ require("./src/config/db");
 const cors = require("cors");
 
 const app = require("express")();
-const port = 3000;
+const port = 8008;
 
 const UserRouter = require("./src/routes/user");
 const GameRouter = require("./src/routes/game");
